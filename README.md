@@ -12,7 +12,7 @@ git clone https://github.com/udemy/nestjs-microservices.git
 ```
 2. Instalar dependencias
 ```bash
-npm install
+pnpm install
 ```
 3. Crear un archivo `.env` basado en el `.env.template`
 4. Ejecutar la migración de prisma
