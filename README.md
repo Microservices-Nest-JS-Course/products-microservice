@@ -21,5 +21,5 @@ npx prisma migrate dev
 ```
 5. Ejecutar el microservicio
 ```bash
-npm run start:dev
+pnpm start:dev
 ```
