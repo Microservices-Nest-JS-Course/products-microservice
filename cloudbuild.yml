@@ -23,8 +23,8 @@ steps:
     args:
       - "set"
       - "image"
-      - "deployment/products-ms"
-      - "products-ms=northamerica-northeast1-docker.pkg.dev/tienda-microservices-477504/image-registry/products-ms:$SHORT_SHA"
+      - "deployment/products"
+      - "products=northamerica-northeast1-docker.pkg.dev/tienda-microservices-477504/image-registry/products-ms:$SHORT_SHA"
     env:
       - "CLOUDSDK_COMPUTE_REGION=northamerica-northeast1"
       - "CLOUDSDK_CONTAINER_CLUSTER=tienda-kubernets"
